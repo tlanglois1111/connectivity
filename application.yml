@@ -1,0 +1,3 @@
+# This file should contain anything that is the same across all services.
+# Anything declared here can be overridden by the service specific config files.
+# This may be a great place to have default values that do not match the Spring Cloud etc opinionated defaults
