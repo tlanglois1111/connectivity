@@ -1,0 +1,84 @@
+
+# READING SERVICE
+# separated by profiles
+
+
+
+# INCLUDE IN ALL PROFILES ----------------------------------------
+# TODO start migrating common properties up here
+
+
+#-----------------------------------------------------------------
+---
+
+
+
+
+# DEV PROFILE ---------------------------------------------------
+spring:
+  profiles: dev
+
+
+
+
+#-----------------------------------------------------------------
+---
+
+
+
+# JENKINS PROFILE ------------------------------------------------
+spring:
+  profiles: jenkins
+
+
+
+
+#-----------------------------------------------------------------
+---
+
+
+# SYSTEST PROFILE --------------------------------------------
+spring:
+  profiles: systest
+
+#eureka
+eureka:
+  client:
+    enabled: true
+
+
+#-----------------------------------------------------------------
+---
+
+
+
+
+
+
+# STAGING PROFILE --------------------------------------------
+spring:
+  profiles: staging
+
+#eureka
+eureka:
+  client:
+    enabled: true
+
+#-----------------------------------------------------------------
+---
+
+
+
+
+
+
+# PRODUCTION PROFILE -----------------------------------------
+spring:
+  profiles: production
+
+
+#eureka
+eureka:
+  client:
+    enabled: true
+#-----------------------------------------------------------------
