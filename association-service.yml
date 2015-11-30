@@ -17,6 +17,9 @@
 # DEV PROFILE ---------------------------------------------------
 spring:
   profiles: dev
+eureka:
+  client:
+    serviceURL:http://localhost:8010/eureka/
 
 
 
