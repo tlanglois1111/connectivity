@@ -7,7 +7,9 @@
 # INCLUDE IN ALL PROFILES ----------------------------------------
 # TODO start migrating common properties up here
 
-
+eureka:
+  serviceUrl:
+    default: http://localhost:8010/eureka/
 #-----------------------------------------------------------------
 ---
 
