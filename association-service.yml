@@ -7,9 +7,6 @@
 # INCLUDE IN ALL PROFILES ----------------------------------------
 # TODO start migrating common properties up here
 
-eureka:
-  serviceUrl:
-    default: http://localhost:8010/eureka/
 #-----------------------------------------------------------------
 ---
 
@@ -21,8 +18,7 @@ spring:
   profiles: dev
 eureka:
   client:
-    serviceURL:
-      defaultzone: http://localhost:8010
+    serviceURL: http://localhost:8010/eureka/
 
 
 
