@@ -10,7 +10,10 @@
 #-----------------------------------------------------------------
 ---
 
-
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
 
 
 # DEV PROFILE ---------------------------------------------------
@@ -18,7 +21,8 @@ spring:
   profiles: dev
 eureka:
   client:
-    serviceURL: http://localhost:8010/
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
 
 
 
