@@ -2,6 +2,10 @@
 # Anything declared here can be overridden by the service specific config files.
 # This may be a great place to have default values that do not match the Spring Cloud etc opinionated defaults
 eureka:
+  instance:
+    instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
+  	healthcheck:
+  		enabled: true
     serviceUrl:
-      defaultZone: http://192.168.99.100:8010/eureka/
+      defaultZone: http://192.168.99.100:8011/eureka/, http://192.168.99.100:8011/eureka/, http://192.168.99.100:8011/eureka/
