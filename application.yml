@@ -5,7 +5,7 @@ eureka:
   instance:
     instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}
   client:
-  	healthcheck:
-  		enabled: true
+    healthcheck:
+  	  enabled: true
     serviceUrl:
       defaultZone: http://192.168.99.100:8011/eureka/, http://192.168.99.100:8011/eureka/, http://192.168.99.100:8011/eureka/
