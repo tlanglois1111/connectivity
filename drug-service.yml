@@ -1,7 +1,7 @@
 drug:
   elasticsearch:
     index:
-      name: newindexname-5
+      name: newindexname-6
   config:
     is:
       working: whaaa-so!
