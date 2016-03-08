@@ -1,0 +1,3 @@
+drug:
+  elasticsearch:
+    index: newindexname
