@@ -4,4 +4,4 @@ drug:
       name: newindexname
   config:
     is:
-      working: yes!
+      working: no!
