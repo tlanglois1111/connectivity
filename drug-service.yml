@@ -2,3 +2,6 @@ drug:
   elasticsearch:
     index:
       name: newindexname
+  config:
+    is:
+      working: yes!
