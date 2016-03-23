@@ -1,7 +1,5 @@
 drug:
   elasticsearch:
-    index:
-      name: newindexname-7
+    index: {name: bobos-index}
   config:
-    is:
-      working: whaaa-so!
+    is: {working: whaaa-so!}
