@@ -1,5 +1,4 @@
 drug:
   elasticsearch:
-    index: {name: bobos-index}
-  config:
-    is: {working: whaaa-so!}
+    index:
+      name: bobos-index
