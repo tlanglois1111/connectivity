@@ -1,4 +1,3 @@
 drug:
   elasticsearch:
-    index:
-      name: bobos-index
+    index: {name: bobos-index}
