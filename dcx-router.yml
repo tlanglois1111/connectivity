@@ -1,4 +1,13 @@
+spring:
+  profiles: appliance
 eureka:
   client:
     serviceUrl:
       defaultZone: http://10.1.129.23:8010/eureka/
+
+spring:
+  profiles: local
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8010/eureka/
